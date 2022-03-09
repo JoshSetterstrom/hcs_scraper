@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from .utils.log_time import log_time
 
-with open('./config.json', 'r') as file: config = json.load(file)
+with open('../config.json', 'r') as file: config = json.load(file)
 
 class Session():
   def __init__(self, session_name=""):
